@@ -8,9 +8,10 @@ const myDelete = document.querySelector('#icon');
 // DRY: 337(old) - 205(new) = 132
 myButton.addEventListener('click', () => {
 	myParagraph.textContent = myTextArea.value;
-	myParagraph.style.color = 'black';
-	myTitle.style.color = 'blue';
-	myTitle.innerHTML = 'Comment Preview &#11088' });
+	myParagraph.style.color = 'black'; 
+	myTitle.style.color = 'navy';
+  myTitle.style.fontWeight = '800';
+	myTitle.innerHTML = 'Comment Preview 👁️' });
 
 // myButton.addEventListener('click', () => { myParagraph.textContent = myTextArea.value });
 // myButton.addEventListener('click', () => { myParagraph.style.color = 'black' });

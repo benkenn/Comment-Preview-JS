@@ -26,22 +26,7 @@ p.description {
 /*  margin-top: -.7em;*/
 }
 
-input,
-button {
-  font-size: .85em;
-  padding: .65em 1em;
-  border-radius: .3em;
-  outline: 0;
-}
 
-#icon {
-  font-size: .6em;
-  padding: 1em .9em;
-  margin: .5em;
-/*  padding-bottom: .9em;*/
-  padding-top: .6em;
-  background-color: rgb(210,0,70);
-}
 
 input {
   border: 1px solid #dcdcdc;
@@ -76,7 +61,21 @@ div {
   /*border-top: 1px dotted #637a91;*/
 }
 
+input,
+button {
+  font-size: 1em;
+  padding: .65em 1em .5em 1em;
+  border-radius: .3em;
+  outline: 0;
+}
 
+#icon {
+  font-size: .5em;
+  padding: 1.05em 1.2em 1.3em 1.2em; 
+  margin: .5em;
+  background-color: rgb(210,0,70);
+  border-radius: .6em;
+}
 
 /* Buttons */
 
